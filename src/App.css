@@ -1,5 +1,4 @@
 .App {
-  text-align: center;
   width: 100%;
   height: 100vh;
   background: #b92b27; /* fallback for old browsers */
@@ -30,14 +29,12 @@
   margin: auto;
   width: 350px;
   height: 525px;
-  background-color: white;
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  object-fit: cover;
+  cursor: pointer;
   z-index: 0;
   opacity: 0;
-  cursor: pointer;
 
   transition: 500ms;
-  object-fit: cover;
 }
 
 .card--active {
